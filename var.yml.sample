@@ -1,0 +1,5 @@
+---
+# var.yml
+user_name: USER_USERNAME
+public_key: USER_SSH_PUBLIC_KEY
+ssh_port: 22

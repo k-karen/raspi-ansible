@@ -1,0 +1,8 @@
+---
+# playbook.yml
+- hosts: raspberrypi
+  become: true
+  vars_files:
+    - var.yml
+  roles:
+    - ssh
